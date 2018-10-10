@@ -1,0 +1,71 @@
+
+/* font imported from Google-font */
+@font-face{
+    font-family: greet_font;
+    src: url(../font/DancingScript-Regular.ttf);
+}
+
+
+/* id="greet_div"(<div> tag)  setting in the page Border,Align color */
+#greet_div{
+    
+    display: block;
+    border: 2px solid grey;   
+    border-radius: 8px;
+    text-align: center;
+    height: 400px;
+    float: initial;
+}
+
+/* Image  setting  */
+img{
+
+    width: 280px;
+    height: 400px;
+    object-fit: cover;
+    float: right;
+
+}
+
+/* <section> tag move from page top */
+.section_greet{
+    
+    padding-top: 150px;
+   
+}
+
+
+/* general setting for <body> tag */
+body{
+    margin:  auto;
+    width: 650px;
+    font-family: greet_font ;
+    color: grey;
+
+
+}
+
+/* the <h2> tag in the <div> tag "id=greet_div" stting */
+h2{
+    padding-top: 95px;
+    font-size: 40px;
+
+}
+
+/* I give more space between the Tag <p> */
+p{
+    padding-top: 2px;
+    padding-left: 15px;;
+    font-size: 22px;
+    text-align: justify;   
+}
+
+
+
+
+div p:third-child{
+    padding-top: -10px;
+    
+    
+    }
+
